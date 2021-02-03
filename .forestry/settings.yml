@@ -23,6 +23,11 @@ sections:
   label: Theme settings
 - type: heading
   label: Heading
+- type: directory
+  path: ''
+  label: DIR
+  create: all
+  match: "**/*"
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
