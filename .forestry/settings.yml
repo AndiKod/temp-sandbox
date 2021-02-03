@@ -13,11 +13,11 @@ sections:
   match: "*.md"
   templates:
   - post
-- type: heading
-  label: Globals
 - type: document
   path: src/_data/navigation.json
   label: Navigation
+- type: heading
+  label: Globals
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
